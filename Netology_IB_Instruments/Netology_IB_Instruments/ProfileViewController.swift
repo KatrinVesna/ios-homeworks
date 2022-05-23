@@ -14,7 +14,6 @@ class ProfileViewController: UIViewController {
         let screenWidth = UIScreen.main.bounds.width
         if let myView = Bundle.main.loadNibNamed("ProfileView", owner: nil, options: nil)?.first as? ProfileView {
             myView.frame = CGRect(x: 0, y: 0, width: screenWidth, height: 250)
-
             view.addSubview(myView)
         }
     }

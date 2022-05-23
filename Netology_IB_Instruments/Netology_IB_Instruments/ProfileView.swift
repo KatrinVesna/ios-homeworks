@@ -14,5 +14,4 @@ class ProfileView: UIView {
     @IBOutlet weak var mySecondUILabel: UILabel!
     @IBOutlet weak var myThirdUILabel: UILabel!
     @IBOutlet weak var myUITextView: UITextView!
-    
 }
