@@ -8,7 +8,7 @@
 import UIKit
 
 class MainTabBarController: UITabBarController {
-   
+    
     let feedView = FeedViewController()
     let profileView = ProfileViewController()
     
@@ -32,5 +32,6 @@ class MainTabBarController: UITabBarController {
         profileView.navigationItem.title = "Profile"
         
         viewControllers = [feedNavigationController, profileNavigationController]
+        
     }
 }
