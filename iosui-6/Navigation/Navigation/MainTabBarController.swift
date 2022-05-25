@@ -8,9 +8,10 @@
 import UIKit
 
 class MainTabBarController: UITabBarController {
-    
+
     let feedView = FeedViewController()
-    let profileView = ProfileViewController()
+    //let profileView = ProfileViewController()
+    let profileView = LogInViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +31,8 @@ class MainTabBarController: UITabBarController {
         profileView.tabBarItem.title = "Profile"
         profileView.tabBarItem.image = UIImage(systemName: "person.fill")
         profileView.navigationItem.title = "Profile"
+        
+    
         
         viewControllers = [feedNavigationController, profileNavigationController]
         

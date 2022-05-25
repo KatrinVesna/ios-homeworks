@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B86B123283BE5E300DAA08B /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B86B122283BE5E300DAA08B /* ProfileHeaderView.swift */; };
+		5B8CB6C0283E2F34005E13B3 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CB6BF283E2F34005E13B3 /* LogInViewController.swift */; };
 		5BD3AFC42837F94600B88C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD3AFC32837F94600B88C04 /* AppDelegate.swift */; };
 		5BD3AFC62837F94600B88C04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD3AFC52837F94600B88C04 /* SceneDelegate.swift */; };
 		5BD3AFCD2837F94D00B88C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD3AFCC2837F94D00B88C04 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		5B86B122283BE5E300DAA08B /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		5B8CB6BF283E2F34005E13B3 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		5BD3AFC02837F94600B88C04 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD3AFC32837F94600B88C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD3AFC52837F94600B88C04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				5B86B122283BE5E300DAA08B /* ProfileHeaderView.swift */,
+				5B8CB6BF283E2F34005E13B3 /* LogInViewController.swift */,
 				5BD3AFE1283B7FDD00B88C04 /* ProfileViewController.swift */,
 			);
 			path = Profile;
@@ -159,6 +162,7 @@
 			files = (
 				5BD3AFDE283B785C00B88C04 /* PostViewController.swift in Sources */,
 				5BD3AFD8283B733600B88C04 /* MainTabBarController.swift in Sources */,
+				5B8CB6C0283E2F34005E13B3 /* LogInViewController.swift in Sources */,
 				5BD3AFDA283B745D00B88C04 /* FeedViewController.swift in Sources */,
 				5BD3AFC42837F94600B88C04 /* AppDelegate.swift in Sources */,
 				5BD3AFE2283B7FDD00B88C04 /* ProfileViewController.swift in Sources */,
